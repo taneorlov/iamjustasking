@@ -1,0 +1,52 @@
+#print("Hello")
+#my_password = "123"
+#password = input("Enter your password - ")
+#if password == my_password:
+ #   print("password OK")
+#else:
+#    print("was ist hier los?")
+# num_1 = int(input("Enter num 1 -"))
+# num_2 = int(input("Enter num 2 -"))
+
+# if num_1 != num_2:
+#     print("Not now")
+#     if num_1 > num_2:
+#         print(">")
+#     elif num_1 < num_2:
+#         print("<")
+# else:
+#     print("==")
+# num_1 = int(input("Enter num 0-9: "))
+
+# while num_1 <10:
+#     print(num_1)
+#     num_1 += 1
+
+# print("End prog")
+# i = 0
+
+# while True:
+#     i += 1
+#     if i >= 10:
+#         break
+#     if i % 2 == 0:
+#         continue
+# k=4
+# print(k)
+# k = int(input("Enter k - "))
+# m = 5
+# l = print(k+m)
+input_sec = int(input("Enter your time in seconds - "))
+min = input_sec // 60
+print(min)
+sec = input_sec % 60
+print(sec)
+if min < 60:
+    hor = 0
+else:
+    hor = min // 60
+    min = min % 60
+print(hor)
+print(f"U time {hor}:{min}:{sec}")
+
+
